@@ -1,0 +1,33 @@
+{
+  "name": "dog-counter",
+  "version": "0.0.0",
+  "description": "Using Grunt with other tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjplunkett/dog-counter.git"
+  },
+  "keywords": [
+    "Grunt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjplunkett/dog-counter/issues"
+  },
+  "homepage": "https://github.com/kjplunkett/dog-counter",
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "backbone.marionette": "^2.3.2",
+    "browserify": "^8.1.1",
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.7",
+    "jquery": "^2.1.3",
+    "mocha": "^2.1.0",
+    "underscore": "^1.7.0"
+  }
+}
