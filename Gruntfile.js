@@ -1,5 +1,7 @@
 module.exports = function (grunt) {
 
+'use strict';
+
 	// Load plugins
 	grunt.loadNpmTasks('grunt-mocha-test');
 	grunt.loadNpmTasks('grunt-eslint');
@@ -10,19 +12,18 @@ module.exports = function (grunt) {
     	mochaTest: {
     		test: {
     			options: {
-    				reporter: 'spec',
-
+    				reporter: 'spec'
     			},
     			src: ['tests/*.js']
     		}
     	},
     	eslint: {
-    		config: '.eslintrc',	
+    		config: '.eslintrc',
     		target: ['tests/*.js']
     	}
     });
 
 	// Register tasks
-	grunt.registerTask('test',['mochaTest']);
-	grunt.registerTask('default',['eslint']);
+	grunt.registerTask('test', ['mochaTest']);
+	grunt.registerTask('default', ['eslint']);
 };

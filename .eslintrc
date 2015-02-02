@@ -21,7 +21,8 @@
         "no-lonely-if": 1,
         "no-nested-ternary": 1,
         "no-multiple-empty-lines": 1,
+        "no-mixed-spaces-and-tabs": [0, "smart-tabs"],
         "space-after-keywords": [1, "always"],
-        "space-before-blocks": [1, "always"],
+        "space-before-blocks": [1, "always"]
     }
 }
