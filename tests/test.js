@@ -2,9 +2,7 @@
 'use strict';
 
 // Require external pacakges
-var expect = require('chai').expect;
 var assert = require('assert');
-var Backbone = require('backbone');
 
 // Require my packages
 var DogModel = require('../app/models/index.js');

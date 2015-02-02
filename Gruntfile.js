@@ -1,5 +1,9 @@
 module.exports = function (grunt) {
 
+	// Load plugins
+	grunt.loadNpmTasks('grunt-mocha-test');
+	grunt.loadNpmTasks('grunt-eslint');
+
     // Project config
     grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -11,12 +15,14 @@ module.exports = function (grunt) {
     			},
     			src: ['tests/*.js']
     		}
+    	},
+    	eslint: {
+    		config: '.eslintrc',	
+    		target: ['tests/*.js']
     	}
     });
-    
-    // Load plugins
-	grunt.loadNpmTasks('grunt-mocha-test');
 
 	// Register tasks
 	grunt.registerTask('test',['mochaTest']);
+	grunt.registerTask('default',['eslint']);
 };
