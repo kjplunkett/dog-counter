@@ -20,4 +20,12 @@ describe('DogModel', function () {
 			assert.deepEqual(defaults, dogModel.toJSON());
 		});
 	});
+	describe('.bark()', function () {
+		it('should return take a name String parameter and return a bark string with that name', function () {
+			var dogModel = new DogModel();
+			var actualBark = dogModel.bark('John');
+			var expectedBark = "Rex says 'woof' to John";
+			assert.equal(actualBark, expectedBark);
+		});
+	});
 });
