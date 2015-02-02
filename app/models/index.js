@@ -1,9 +1,9 @@
-// Dog Model - Backbone Model 
+// Dog Model - Backbone Model
 'use strict';
 
 var Backbone = require('backbone');
 
-var DogModel = Backbone.Model.extend ({
+var DogModel = Backbone.Model.extend({
 	defaults: {
 		name: 'Rex',
 		age: 1,
