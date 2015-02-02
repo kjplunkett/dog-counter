@@ -19,7 +19,8 @@ module.exports = function (grunt) {
     	},
     	eslint: {
     		config: '.eslintrc',
-    		target: ['tests/*.js']
+    		target: ['tests/*.js',
+                     'app/**/*.js']
     	}
     });
 
