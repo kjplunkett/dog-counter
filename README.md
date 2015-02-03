@@ -1,9 +1,10 @@
 # Dog Counter
 
 ## Installation
-- Install `node` if you haven't already, here is a <a href="http://nodejs.org/download/">link</a>.
+- Install `node` 
+- If you haven't already, here is a <a href="http://nodejs.org/download/">link</a>.
 - After you install node, clone the project
-- Go to the root folder in Terminal and run the following commands
+- Go to the project root in Terminal and run the following commands
 - `npm install`
 
 ### Lint 
