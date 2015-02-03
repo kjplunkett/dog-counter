@@ -1,14 +1,13 @@
 # Dog Counter
 
 ## Installation
-- Install `node` 
-- If you haven't already, here is a <a href="http://nodejs.org/download/">link</a>.
+- Install <a href="http://nodejs.org/download/">Node</a> if you haven't already
 - After you install node, clone the project
-- Go to the project root in Terminal and run the following commands
+- Go to the project root in Terminal or iTerm and run the following commands
 - `npm install`
 
 ### Lint 
-> I'm now using SublimeLinter instead, much more efficient
+> I'm now using <a href="http://www.sublimelinter.com/en/latest/">SublimeLinter</a> with the <a href="https://github.com/roadhump/SublimeLinter-eslint">ESLint</a> plugin. Much more efficient for me.
 - `grunt lint`
 
 ### Test
