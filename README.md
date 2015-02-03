@@ -8,6 +8,7 @@
 
 ### Lint 
 > I'm now using <a href="http://www.sublimelinter.com/en/latest/">SublimeLinter</a> with the <a href="https://github.com/roadhump/SublimeLinter-eslint">ESLint</a> plugin. Much more efficient for me.
+
 - `grunt lint`
 
 ### Test
