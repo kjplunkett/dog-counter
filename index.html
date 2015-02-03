@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<title>Dog Counter</title>
+
+</head>
+<body>
+
+<!-- Main Container -->
+<div id="container" class="container">
+</div>
+
+
+<!-- Composite Template -->
+<script id="composite-template" type="text/html">
+<thead>
+	<tr>
+		<th> Name </th>
+		<th> Age </th>
+		<th> Color </th>
+		<th> Loved </th>
+	</tr>
+</thead>
+<!-- Put the table in here -->
+<tbody></tbody>
+</script>
+
+<!-- Item Template -->
+<script id="item-template" type="text/html">
+	<td><%= name %></td>
+	<td><%= age %></td>
+	<td><%= color %></td>
+	<td><%= loved %></em></td>
+</script>
+
+<script src="static/bundle.js"></script>
+</body>
+</html>
